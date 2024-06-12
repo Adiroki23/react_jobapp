@@ -1,11 +1,11 @@
 import React from 'react'
-import {Link, link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import logo from '../assets/images/logo.png';
 
 
 const Navbar = () => {
   return (
-    <nav className="bg-indigo-700 border-b border-indigo-500">
+    <nav className="bg-cyan-700 border-b border-cyan-500">
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
           <div className="flex h-20 items-center justify-between">
             <div
@@ -21,7 +21,7 @@ const Navbar = () => {
                   alt="React Jobs"
                 />
                 <span className="hidden md:block text-white text-2xl font-bold ml-2"
-                  >React Jobs</span
+                  >Jobiffyy</span
                 >
               </Link>
               <div className="md:ml-auto">
